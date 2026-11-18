@@ -7,7 +7,7 @@
 
 ## 구현 항목 체크
 -  Part A: data.js에 10칸짜리 배열 4개. app.js에서 for와 if(또는 switch)로 계산한 A1에서 A5 이 다섯 줄이 콘솔에 찍혔습니다.
--  Part B 함수 7개: movies 10건. average, best, filterByRating, sortBy, search, formatNumber, yearsSince가 표의 입력과 출력대로 동작했으며 자가테스트도 통과했습니다..
+-  Part B 함수 7개: movies 10건. average, best, filterByRating, sortBy, search, formatNumber, yearsSince가 표의 입력과 출력대로 동작했으며 자가테스트 1-8번도 통과했습니다..
 -  Part C 응답 구조: tmdb.js에 now_playing 응답 전체가 const TMDB로 들어 있음. getList, averageBy로 C1, C2, 상위 5편 표, C4가 콘솔에 찍힙니다..
 -  출력: console-a.png(A1~A5), console-c.png(C1~C4와 표) 2장. 사이트 주소의 pre id="out"에 Part B 요약 3줄(textContent 한 번).
 -  코드 품질: 함수마다 "입력 ⇒ 출력" 주석, var 없이 const와 let만, 정렬과 필터 뒤에도 movies 원본 그대로, 같은 계산을 두 번 쓰지 않음(average가 averageBy를 부름), 하는 일이 드러나는 이름.
